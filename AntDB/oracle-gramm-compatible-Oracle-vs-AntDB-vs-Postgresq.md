@@ -10,6 +10,7 @@ grant，revoke，alter password
 ## 5. TCL
 commit，rollback，savepoint
 ## 6. 数据类型
+
 |ORACLE	|AntDB	|Postgresql|
 |:------|:------|:---------|
 |varchar2	|varchar2	|varchar|
@@ -21,6 +22,7 @@ commit，rollback，savepoint
 |blob	|blob	|bytea   |
 |rownum	|rownum	|无  |
 |rowid	|rowid	|ctid|
+
 ## 7. 系统函数
 **原生支持： 原生支持： √；不支持：╳；扩展支持 扩展支持 ：○**
 
