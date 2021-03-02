@@ -2193,7 +2193,7 @@ postgres=#  select interval '100' year(2) from dual;
 ```
 INTERVAL '{ integer \| integer time_expr \| time_expr }'
 
-{{ DAY \| HOUR \| MINUTE \| SECOND }
+{{ DAY \| HOUR \| MINUTE \| SECOND }}
 
 [ TO { DAY \| HOUR \| MINUTE \| SECOND [ (fractional_seconds_precision) ] } ]
 
