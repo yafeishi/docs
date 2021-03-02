@@ -122,6 +122,7 @@ commit，rollback，savepoint
 |	        |SUM * 	        |√ 	|√ 	|√ |
 
 ## 8. SQL运算符
+
 |SQL运算符类型	|运算符名称	|ORACLE	|AntDB	|Postgresql|
 |:--------|:----------|:----------|:-------|:-----------|
 |算数运算符	|+	|√ 	|√ 	|√ |
@@ -151,6 +152,7 @@ commit，rollback，savepoint
 |	          |    intersect	|√ 	|╳ 	|√ |
 
 ## 9. 查询
+
 |SQL查询类型	|名称	|ORACLE	|AntDB	|Postgresql|
 |:--------|:----------|:----------|:-------|:-----------|
 |去重	|distinct	|√ 	|√ 	|√ |
@@ -165,6 +167,7 @@ commit，rollback，savepoint
 |merge into	|merge into	      |√ 	|╳ upsert	|╳ upsert|
 
 ## 10. 表连接
+
 |表连接类型	|表连接名称	|ORACLE	|AntDB	|Postgresql|
 |:--------|:----------|:----------|:-------|:-----------|
 |内连接	|(inner) join	        |√ 	|√ 	|√ |
@@ -175,6 +178,7 @@ commit，rollback，savepoint
 |(+)	  |(+)	                |√ 	|√ 	|╳ |
 
 ## 11. 视图/函数/存储过程/触发器
+
 |类型	|名称	|ORACLE	|AntDB	|Postgresql|
 |:--------|:----------|:----------|:-------|:-----------|
 |视图	    |create view	    |√ 	|√ 	|√ |
@@ -191,6 +195,7 @@ commit，rollback，savepoint
 |	        |drop trigger	    |√ 	|√ 	|√ |
 
 ## 12. sequence
+
 |类型	|名称	|ORACLE	|AntDB	|Postgresql|
 |:--------|:----------|:----------|:-------|:-----------|
 |新建序列	|create sequence	|√ 	|√ 	|√ |
@@ -200,6 +205,7 @@ commit，rollback，savepoint
 |	        |seq.currVal	    |√ 	|√ 	|╳ currVal('seq')|
 
 ## 13. 其他
+
 |类型	|名称	|ORACLE	|AntDB	|Postgresql|
 |:--------|:----------|:----------|:-------|:-----------|
 |过程语言	        |declare	    |√ 	|√ 	|√ |
